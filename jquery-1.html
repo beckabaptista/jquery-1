@@ -38,7 +38,20 @@ function undo(){
   $("h3").show();
 }
 
+function highlightByline (){
+  $(".byline").addClass("yellow");
+}
+
+function unHighlightByline (){
+  $(".byline").removeClass("yellow");
+}
 </script>
+
+<style>
+.yellow {
+  background-color: yellow;
+}
+</style>
 </head>
 <body>
   <h1>Lorem ipsum</h1>
